@@ -1,0 +1,41 @@
+{
+  "id": "mod-nginx-webserver",
+  "slug": "module-nginx-webserver",
+  "title": "Nginx与Web服务部署",
+  "subtitle": "面向开发和运维学习者的Web服务器配置",
+  "description": "面向前端后端运维和全栈开发学习者的Nginx静态资源部署反向代理负载均衡HTTPS缓存跨域日志限流性能优化与故障排查训练。",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    "OpenSkill Community"
+  ],
+  "tags": [
+    "Nginx",
+    "Web部署",
+    "反向代理",
+    "负载均衡",
+    "HTTPS",
+    "跨域",
+    "缓存",
+    "故障排查"
+  ],
+  "estimatedHours": 150,
+  "difficulty": "intermediate",
+  "updatedAt": "2026-07-03T00:00:00.000Z",
+  "coverEmoji": "🌐",
+  "repoUrl": "https://github.com/openskill-galaxy/module-nginx-webserver",
+  "portalUrl": "https://openskill-galaxy.github.io/",
+  "status": "stable",
+  "stats": {
+    "courses": 14,
+    "lessons": 182,
+    "knowledgePoints": 735,
+    "questions": 3700,
+    "cases": 260,
+    "exams": 100,
+    "routes": 35,
+    "glossary": 360,
+    "faqs": 210,
+    "tags": 105
+  }
+}

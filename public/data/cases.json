@@ -1,0 +1,9882 @@
+[
+  {
+    "id": "nx-case-001",
+    "title": "部署静态网站案例1",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001239",
+      "nx-q-000486",
+      "nx-q-003254"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-002",
+    "title": "Vue history路由案例2",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001947",
+      "nx-q-003257",
+      "nx-q-000495"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-003",
+    "title": "404修复案例3",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002327",
+      "nx-q-000258",
+      "nx-q-002637"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-004",
+    "title": "反向代理后端API案例4",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001025",
+      "nx-q-002296",
+      "nx-q-001183"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-005",
+    "title": "HTTPS配置案例5",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001448",
+      "nx-q-001972",
+      "nx-q-002249"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-006",
+    "title": "HTTP跳转HTTPS案例6",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002666",
+      "nx-q-003095",
+      "nx-q-001508"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-007",
+    "title": "Gzip压缩案例7",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003023",
+      "nx-q-000079",
+      "nx-q-000172"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-008",
+    "title": "静态缓存案例8",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000047",
+      "nx-q-002712",
+      "nx-q-000559"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-009",
+    "title": "负载均衡案例9",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001521",
+      "nx-q-000873",
+      "nx-q-001661"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-010",
+    "title": "upstream配置案例10",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001305",
+      "nx-q-000760",
+      "nx-q-000316"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-011",
+    "title": "CORS跨域案例11",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001745",
+      "nx-q-000986",
+      "nx-q-000171"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-012",
+    "title": "日志分析案例12",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000798",
+      "nx-q-002167",
+      "nx-q-001318"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-013",
+    "title": "502排查案例13",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001890",
+      "nx-q-000591",
+      "nx-q-000293"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-014",
+    "title": "504排查案例14",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002535",
+      "nx-q-002611",
+      "nx-q-003427"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-015",
+    "title": "403排查案例15",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003101",
+      "nx-q-001880",
+      "nx-q-001684"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-016",
+    "title": "Docker Nginx部署案例16",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001562",
+      "nx-q-003443",
+      "nx-q-000171"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-017",
+    "title": "前后端分离部署案例17",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000785",
+      "nx-q-001203",
+      "nx-q-000437"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-018",
+    "title": "Nginx面试案例18",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003028",
+      "nx-q-002832",
+      "nx-q-000123"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-019",
+    "title": "部署静态网站案例19",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002634",
+      "nx-q-001694",
+      "nx-q-002663"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-020",
+    "title": "Vue history路由案例20",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003454",
+      "nx-q-000445",
+      "nx-q-001083"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-021",
+    "title": "404修复案例21",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000027",
+      "nx-q-001762",
+      "nx-q-000030"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-022",
+    "title": "反向代理后端API案例22",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001686",
+      "nx-q-002293",
+      "nx-q-001863"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-023",
+    "title": "HTTPS配置案例23",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003478",
+      "nx-q-002331",
+      "nx-q-003447"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-024",
+    "title": "HTTP跳转HTTPS案例24",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000047",
+      "nx-q-003253",
+      "nx-q-002719"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-025",
+    "title": "Gzip压缩案例25",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003027",
+      "nx-q-003197",
+      "nx-q-000853"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-026",
+    "title": "静态缓存案例26",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003287",
+      "nx-q-002720",
+      "nx-q-000781"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-027",
+    "title": "负载均衡案例27",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002696",
+      "nx-q-001981",
+      "nx-q-001310"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-028",
+    "title": "upstream配置案例28",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001968",
+      "nx-q-003115",
+      "nx-q-001838"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-029",
+    "title": "CORS跨域案例29",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001979",
+      "nx-q-000439",
+      "nx-q-001590"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-030",
+    "title": "日志分析案例30",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003596",
+      "nx-q-002806",
+      "nx-q-000140"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-031",
+    "title": "502排查案例31",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001727",
+      "nx-q-000515",
+      "nx-q-002844"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-032",
+    "title": "504排查案例32",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002794",
+      "nx-q-000726",
+      "nx-q-001622"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-033",
+    "title": "403排查案例33",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002958",
+      "nx-q-001913",
+      "nx-q-001453"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-034",
+    "title": "Docker Nginx部署案例34",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002963",
+      "nx-q-000423",
+      "nx-q-001984"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-035",
+    "title": "前后端分离部署案例35",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000289",
+      "nx-q-002887",
+      "nx-q-001393"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-036",
+    "title": "Nginx面试案例36",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002806",
+      "nx-q-002333",
+      "nx-q-003030"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-037",
+    "title": "部署静态网站案例37",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001648",
+      "nx-q-000237",
+      "nx-q-002682"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-038",
+    "title": "Vue history路由案例38",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000962",
+      "nx-q-000800",
+      "nx-q-001502"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-039",
+    "title": "404修复案例39",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000296",
+      "nx-q-001468",
+      "nx-q-001754"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-040",
+    "title": "反向代理后端API案例40",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001098",
+      "nx-q-003596",
+      "nx-q-003475"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-041",
+    "title": "HTTPS配置案例41",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001349",
+      "nx-q-002069",
+      "nx-q-000220"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-042",
+    "title": "HTTP跳转HTTPS案例42",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001473",
+      "nx-q-000780",
+      "nx-q-001510"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-043",
+    "title": "Gzip压缩案例43",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003450",
+      "nx-q-000302",
+      "nx-q-002031"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-044",
+    "title": "静态缓存案例44",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002242",
+      "nx-q-000010",
+      "nx-q-001062"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-045",
+    "title": "负载均衡案例45",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002838",
+      "nx-q-003510",
+      "nx-q-001853"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-046",
+    "title": "upstream配置案例46",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000980",
+      "nx-q-003543",
+      "nx-q-002597"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-047",
+    "title": "CORS跨域案例47",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000488",
+      "nx-q-000356",
+      "nx-q-000918"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-048",
+    "title": "日志分析案例48",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003639",
+      "nx-q-001504",
+      "nx-q-000047"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-049",
+    "title": "502排查案例49",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001069",
+      "nx-q-000229",
+      "nx-q-002135"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-050",
+    "title": "504排查案例50",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000399",
+      "nx-q-002135",
+      "nx-q-001253"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-051",
+    "title": "403排查案例51",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003236",
+      "nx-q-001947",
+      "nx-q-003133"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-052",
+    "title": "Docker Nginx部署案例52",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002768",
+      "nx-q-002533",
+      "nx-q-001551"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-053",
+    "title": "前后端分离部署案例53",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003685",
+      "nx-q-001362",
+      "nx-q-002356"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-054",
+    "title": "Nginx面试案例54",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000838",
+      "nx-q-002240",
+      "nx-q-001824"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-055",
+    "title": "部署静态网站案例55",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003607",
+      "nx-q-002476",
+      "nx-q-001978"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-056",
+    "title": "Vue history路由案例56",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000603",
+      "nx-q-001742",
+      "nx-q-000234"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-057",
+    "title": "404修复案例57",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000880",
+      "nx-q-001502",
+      "nx-q-000419"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-058",
+    "title": "反向代理后端API案例58",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003087",
+      "nx-q-002080",
+      "nx-q-002536"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-059",
+    "title": "HTTPS配置案例59",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001913",
+      "nx-q-002801",
+      "nx-q-003426"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-060",
+    "title": "HTTP跳转HTTPS案例60",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001582",
+      "nx-q-003259",
+      "nx-q-000063"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-061",
+    "title": "Gzip压缩案例61",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003456",
+      "nx-q-000760",
+      "nx-q-002479"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-062",
+    "title": "静态缓存案例62",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001901",
+      "nx-q-000695",
+      "nx-q-002826"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-063",
+    "title": "负载均衡案例63",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000282",
+      "nx-q-002226",
+      "nx-q-001452"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-064",
+    "title": "upstream配置案例64",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003467",
+      "nx-q-001825",
+      "nx-q-000410"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-065",
+    "title": "CORS跨域案例65",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002957",
+      "nx-q-003179",
+      "nx-q-002744"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-066",
+    "title": "日志分析案例66",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003612",
+      "nx-q-000408",
+      "nx-q-002785"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-067",
+    "title": "502排查案例67",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001846",
+      "nx-q-003267",
+      "nx-q-001522"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-068",
+    "title": "504排查案例68",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003359",
+      "nx-q-002481",
+      "nx-q-002498"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-069",
+    "title": "403排查案例69",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003153",
+      "nx-q-000306",
+      "nx-q-001687"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-070",
+    "title": "Docker Nginx部署案例70",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001779",
+      "nx-q-002838",
+      "nx-q-001482"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-071",
+    "title": "前后端分离部署案例71",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002485",
+      "nx-q-001609",
+      "nx-q-001573"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-072",
+    "title": "Nginx面试案例72",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002284",
+      "nx-q-000285",
+      "nx-q-000134"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-073",
+    "title": "部署静态网站案例73",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000172",
+      "nx-q-003374",
+      "nx-q-000862"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-074",
+    "title": "Vue history路由案例74",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003476",
+      "nx-q-002295",
+      "nx-q-001261"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-075",
+    "title": "404修复案例75",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001732",
+      "nx-q-002460",
+      "nx-q-002635"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-076",
+    "title": "反向代理后端API案例76",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000541",
+      "nx-q-003692",
+      "nx-q-002125"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-077",
+    "title": "HTTPS配置案例77",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001589",
+      "nx-q-001814",
+      "nx-q-003643"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-078",
+    "title": "HTTP跳转HTTPS案例78",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002489",
+      "nx-q-002383",
+      "nx-q-000348"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-079",
+    "title": "Gzip压缩案例79",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001732",
+      "nx-q-001616",
+      "nx-q-000094"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-080",
+    "title": "静态缓存案例80",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002956",
+      "nx-q-003191",
+      "nx-q-002576"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-081",
+    "title": "负载均衡案例81",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002140",
+      "nx-q-001201",
+      "nx-q-003182"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-082",
+    "title": "upstream配置案例82",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001724",
+      "nx-q-003600",
+      "nx-q-003176"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-083",
+    "title": "CORS跨域案例83",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002692",
+      "nx-q-002261",
+      "nx-q-003547"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-084",
+    "title": "日志分析案例84",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000388",
+      "nx-q-001549",
+      "nx-q-001652"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-085",
+    "title": "502排查案例85",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003410",
+      "nx-q-002041",
+      "nx-q-002563"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-086",
+    "title": "504排查案例86",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001831",
+      "nx-q-002828",
+      "nx-q-000495"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-087",
+    "title": "403排查案例87",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002468",
+      "nx-q-000210",
+      "nx-q-002702"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-088",
+    "title": "Docker Nginx部署案例88",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002505",
+      "nx-q-003291",
+      "nx-q-001004"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-089",
+    "title": "前后端分离部署案例89",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001641",
+      "nx-q-000973",
+      "nx-q-003337"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-090",
+    "title": "Nginx面试案例90",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002074",
+      "nx-q-003335",
+      "nx-q-003446"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-091",
+    "title": "部署静态网站案例91",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002340",
+      "nx-q-000524",
+      "nx-q-000106"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-092",
+    "title": "Vue history路由案例92",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000625",
+      "nx-q-001602",
+      "nx-q-000208"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-093",
+    "title": "404修复案例93",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002757",
+      "nx-q-002536",
+      "nx-q-001181"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-094",
+    "title": "反向代理后端API案例94",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000349",
+      "nx-q-002829",
+      "nx-q-000337"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-095",
+    "title": "HTTPS配置案例95",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001784",
+      "nx-q-003661",
+      "nx-q-002106"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-096",
+    "title": "HTTP跳转HTTPS案例96",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000860",
+      "nx-q-002528",
+      "nx-q-000112"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-097",
+    "title": "Gzip压缩案例97",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002740",
+      "nx-q-001267",
+      "nx-q-002541"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-098",
+    "title": "静态缓存案例98",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003147",
+      "nx-q-000194",
+      "nx-q-001269"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-099",
+    "title": "负载均衡案例99",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001588",
+      "nx-q-003472",
+      "nx-q-003463"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-100",
+    "title": "upstream配置案例100",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002428",
+      "nx-q-001216",
+      "nx-q-002599"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-101",
+    "title": "CORS跨域案例101",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000613",
+      "nx-q-001809",
+      "nx-q-002768"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-102",
+    "title": "日志分析案例102",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002972",
+      "nx-q-000875",
+      "nx-q-002926"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-103",
+    "title": "502排查案例103",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002710",
+      "nx-q-002358",
+      "nx-q-003481"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-104",
+    "title": "504排查案例104",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000977",
+      "nx-q-001958",
+      "nx-q-000064"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-105",
+    "title": "403排查案例105",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000912",
+      "nx-q-001792",
+      "nx-q-001780"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-106",
+    "title": "Docker Nginx部署案例106",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000716",
+      "nx-q-001441",
+      "nx-q-001239"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-107",
+    "title": "前后端分离部署案例107",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002067",
+      "nx-q-001643",
+      "nx-q-001911"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-108",
+    "title": "Nginx面试案例108",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003396",
+      "nx-q-002454",
+      "nx-q-001847"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-109",
+    "title": "部署静态网站案例109",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000992",
+      "nx-q-000665",
+      "nx-q-003560"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-110",
+    "title": "Vue history路由案例110",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002622",
+      "nx-q-002446",
+      "nx-q-001973"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-111",
+    "title": "404修复案例111",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000950",
+      "nx-q-000367",
+      "nx-q-001732"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-112",
+    "title": "反向代理后端API案例112",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002149",
+      "nx-q-000934",
+      "nx-q-000701"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-113",
+    "title": "HTTPS配置案例113",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001104",
+      "nx-q-001210",
+      "nx-q-000879"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-114",
+    "title": "HTTP跳转HTTPS案例114",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000620",
+      "nx-q-003041",
+      "nx-q-002418"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-115",
+    "title": "Gzip压缩案例115",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002805",
+      "nx-q-002548",
+      "nx-q-000547"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-116",
+    "title": "静态缓存案例116",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003339",
+      "nx-q-001493",
+      "nx-q-000782"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-117",
+    "title": "负载均衡案例117",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001948",
+      "nx-q-002227",
+      "nx-q-001694"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-118",
+    "title": "upstream配置案例118",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003100",
+      "nx-q-002923",
+      "nx-q-001814"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-119",
+    "title": "CORS跨域案例119",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003590",
+      "nx-q-001982",
+      "nx-q-001250"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-120",
+    "title": "日志分析案例120",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001595",
+      "nx-q-002341",
+      "nx-q-000284"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-121",
+    "title": "502排查案例121",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001431",
+      "nx-q-003156",
+      "nx-q-000073"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-122",
+    "title": "504排查案例122",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002697",
+      "nx-q-003336",
+      "nx-q-002953"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-123",
+    "title": "403排查案例123",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000147",
+      "nx-q-002026",
+      "nx-q-001747"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-124",
+    "title": "Docker Nginx部署案例124",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000017",
+      "nx-q-003488",
+      "nx-q-000830"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-125",
+    "title": "前后端分离部署案例125",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003554",
+      "nx-q-001812",
+      "nx-q-003606"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-126",
+    "title": "Nginx面试案例126",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003131",
+      "nx-q-003356",
+      "nx-q-003017"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-127",
+    "title": "部署静态网站案例127",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002278",
+      "nx-q-002640",
+      "nx-q-003428"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-128",
+    "title": "Vue history路由案例128",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001802",
+      "nx-q-000388",
+      "nx-q-001629"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-129",
+    "title": "404修复案例129",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001663",
+      "nx-q-001344",
+      "nx-q-000712"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-130",
+    "title": "反向代理后端API案例130",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000379",
+      "nx-q-001425",
+      "nx-q-003526"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-131",
+    "title": "HTTPS配置案例131",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002151",
+      "nx-q-000411",
+      "nx-q-001224"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-132",
+    "title": "HTTP跳转HTTPS案例132",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001447",
+      "nx-q-003490",
+      "nx-q-000454"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-133",
+    "title": "Gzip压缩案例133",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000997",
+      "nx-q-003164",
+      "nx-q-001619"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-134",
+    "title": "静态缓存案例134",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000725",
+      "nx-q-002702",
+      "nx-q-000546"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-135",
+    "title": "负载均衡案例135",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002914",
+      "nx-q-001931",
+      "nx-q-001806"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-136",
+    "title": "upstream配置案例136",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000178",
+      "nx-q-000725",
+      "nx-q-003567"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-137",
+    "title": "CORS跨域案例137",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001431",
+      "nx-q-002066",
+      "nx-q-002002"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-138",
+    "title": "日志分析案例138",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000651",
+      "nx-q-001695",
+      "nx-q-001572"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-139",
+    "title": "502排查案例139",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000459",
+      "nx-q-001044",
+      "nx-q-001327"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-140",
+    "title": "504排查案例140",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002201",
+      "nx-q-002228",
+      "nx-q-001037"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-141",
+    "title": "403排查案例141",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000818",
+      "nx-q-001313",
+      "nx-q-002306"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-142",
+    "title": "Docker Nginx部署案例142",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003176",
+      "nx-q-000382",
+      "nx-q-000288"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-143",
+    "title": "前后端分离部署案例143",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003067",
+      "nx-q-000491",
+      "nx-q-001904"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-144",
+    "title": "Nginx面试案例144",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002274",
+      "nx-q-000147",
+      "nx-q-003621"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-145",
+    "title": "部署静态网站案例145",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002818",
+      "nx-q-000827",
+      "nx-q-000061"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-146",
+    "title": "Vue history路由案例146",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000463",
+      "nx-q-003224",
+      "nx-q-001276"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-147",
+    "title": "404修复案例147",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001863",
+      "nx-q-002997",
+      "nx-q-003068"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-148",
+    "title": "反向代理后端API案例148",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001427",
+      "nx-q-002078",
+      "nx-q-002983"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-149",
+    "title": "HTTPS配置案例149",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001623",
+      "nx-q-003602",
+      "nx-q-002354"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-150",
+    "title": "HTTP跳转HTTPS案例150",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001702",
+      "nx-q-001419",
+      "nx-q-002379"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-151",
+    "title": "Gzip压缩案例151",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000912",
+      "nx-q-000130",
+      "nx-q-002078"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-152",
+    "title": "静态缓存案例152",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000938",
+      "nx-q-002412",
+      "nx-q-001191"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-153",
+    "title": "负载均衡案例153",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003629",
+      "nx-q-002211",
+      "nx-q-001957"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-154",
+    "title": "upstream配置案例154",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001723",
+      "nx-q-000958",
+      "nx-q-000181"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-155",
+    "title": "CORS跨域案例155",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001723",
+      "nx-q-003617",
+      "nx-q-003678"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-156",
+    "title": "日志分析案例156",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001714",
+      "nx-q-003063",
+      "nx-q-000740"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-157",
+    "title": "502排查案例157",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000321",
+      "nx-q-003148",
+      "nx-q-001584"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-158",
+    "title": "504排查案例158",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001182",
+      "nx-q-000027",
+      "nx-q-002494"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-159",
+    "title": "403排查案例159",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003329",
+      "nx-q-002321",
+      "nx-q-000080"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-160",
+    "title": "Docker Nginx部署案例160",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000173",
+      "nx-q-003309",
+      "nx-q-002389"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-161",
+    "title": "前后端分离部署案例161",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000472",
+      "nx-q-001267",
+      "nx-q-001983"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-162",
+    "title": "Nginx面试案例162",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002964",
+      "nx-q-000430",
+      "nx-q-003251"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-163",
+    "title": "部署静态网站案例163",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002242",
+      "nx-q-003441",
+      "nx-q-000296"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-164",
+    "title": "Vue history路由案例164",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002435",
+      "nx-q-000420",
+      "nx-q-003142"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-165",
+    "title": "404修复案例165",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002363",
+      "nx-q-000732",
+      "nx-q-003664"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-166",
+    "title": "反向代理后端API案例166",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001540",
+      "nx-q-003188",
+      "nx-q-002754"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-167",
+    "title": "HTTPS配置案例167",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003295",
+      "nx-q-001782",
+      "nx-q-002696"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-168",
+    "title": "HTTP跳转HTTPS案例168",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002851",
+      "nx-q-000263",
+      "nx-q-000115"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-169",
+    "title": "Gzip压缩案例169",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000470",
+      "nx-q-001371",
+      "nx-q-000923"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-170",
+    "title": "静态缓存案例170",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000008",
+      "nx-q-000038",
+      "nx-q-002339"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-171",
+    "title": "负载均衡案例171",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003638",
+      "nx-q-003504",
+      "nx-q-002325"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-172",
+    "title": "upstream配置案例172",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002538",
+      "nx-q-003451",
+      "nx-q-003144"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-173",
+    "title": "CORS跨域案例173",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003607",
+      "nx-q-001839",
+      "nx-q-002557"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-174",
+    "title": "日志分析案例174",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002239",
+      "nx-q-001743",
+      "nx-q-000387"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-175",
+    "title": "502排查案例175",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001486",
+      "nx-q-001010",
+      "nx-q-002143"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-176",
+    "title": "504排查案例176",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002153",
+      "nx-q-001062",
+      "nx-q-000751"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-177",
+    "title": "403排查案例177",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000789",
+      "nx-q-003553",
+      "nx-q-002946"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-178",
+    "title": "Docker Nginx部署案例178",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002195",
+      "nx-q-002724",
+      "nx-q-002083"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-179",
+    "title": "前后端分离部署案例179",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003345",
+      "nx-q-003599",
+      "nx-q-003574"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-180",
+    "title": "Nginx面试案例180",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002904",
+      "nx-q-002547",
+      "nx-q-000938"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-181",
+    "title": "部署静态网站案例181",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001267",
+      "nx-q-001526",
+      "nx-q-000730"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-182",
+    "title": "Vue history路由案例182",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002657",
+      "nx-q-002954",
+      "nx-q-001544"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-183",
+    "title": "404修复案例183",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001158",
+      "nx-q-000983",
+      "nx-q-001383"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-184",
+    "title": "反向代理后端API案例184",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002664",
+      "nx-q-002974",
+      "nx-q-000403"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-185",
+    "title": "HTTPS配置案例185",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002122",
+      "nx-q-003377",
+      "nx-q-003027"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-186",
+    "title": "HTTP跳转HTTPS案例186",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001913",
+      "nx-q-000911",
+      "nx-q-003603"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-187",
+    "title": "Gzip压缩案例187",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002478",
+      "nx-q-003009",
+      "nx-q-001859"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-188",
+    "title": "静态缓存案例188",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003262",
+      "nx-q-003243",
+      "nx-q-001423"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-189",
+    "title": "负载均衡案例189",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002532",
+      "nx-q-001139",
+      "nx-q-000789"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-190",
+    "title": "upstream配置案例190",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003345",
+      "nx-q-002574",
+      "nx-q-001541"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-191",
+    "title": "CORS跨域案例191",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001724",
+      "nx-q-002147",
+      "nx-q-000946"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-192",
+    "title": "日志分析案例192",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002906",
+      "nx-q-003265",
+      "nx-q-001756"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-193",
+    "title": "502排查案例193",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001869",
+      "nx-q-002583",
+      "nx-q-001485"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-194",
+    "title": "504排查案例194",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002628",
+      "nx-q-002334",
+      "nx-q-000111"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-195",
+    "title": "403排查案例195",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002993",
+      "nx-q-002605",
+      "nx-q-001740"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-196",
+    "title": "Docker Nginx部署案例196",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000643",
+      "nx-q-001807",
+      "nx-q-002641"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-197",
+    "title": "前后端分离部署案例197",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000948",
+      "nx-q-002213",
+      "nx-q-003699"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-198",
+    "title": "Nginx面试案例198",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002548",
+      "nx-q-000015",
+      "nx-q-000626"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-199",
+    "title": "部署静态网站案例199",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002076",
+      "nx-q-000119",
+      "nx-q-003489"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-200",
+    "title": "Vue history路由案例200",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002676",
+      "nx-q-001396",
+      "nx-q-000361"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-201",
+    "title": "404修复案例201",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002112",
+      "nx-q-002329",
+      "nx-q-001537"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-202",
+    "title": "反向代理后端API案例202",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002967",
+      "nx-q-001619",
+      "nx-q-003045"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-203",
+    "title": "HTTPS配置案例203",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001520",
+      "nx-q-000796",
+      "nx-q-002242"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-204",
+    "title": "HTTP跳转HTTPS案例204",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000397",
+      "nx-q-003098",
+      "nx-q-002561"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-205",
+    "title": "Gzip压缩案例205",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002447",
+      "nx-q-000963",
+      "nx-q-000956"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-206",
+    "title": "静态缓存案例206",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001637",
+      "nx-q-001965",
+      "nx-q-000660"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-207",
+    "title": "负载均衡案例207",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002051",
+      "nx-q-003666",
+      "nx-q-001775"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-208",
+    "title": "upstream配置案例208",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001756",
+      "nx-q-002931",
+      "nx-q-001303"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-209",
+    "title": "CORS跨域案例209",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003593",
+      "nx-q-000132",
+      "nx-q-001284"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-210",
+    "title": "日志分析案例210",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000159",
+      "nx-q-002337",
+      "nx-q-003366"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-211",
+    "title": "502排查案例211",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003635",
+      "nx-q-003288",
+      "nx-q-003226"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-212",
+    "title": "504排查案例212",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001097",
+      "nx-q-002386",
+      "nx-q-001322"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-213",
+    "title": "403排查案例213",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002105",
+      "nx-q-002351",
+      "nx-q-002929"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-214",
+    "title": "Docker Nginx部署案例214",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003456",
+      "nx-q-003170",
+      "nx-q-001874"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-215",
+    "title": "前后端分离部署案例215",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000574",
+      "nx-q-001476",
+      "nx-q-003128"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-216",
+    "title": "Nginx面试案例216",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001394",
+      "nx-q-003548",
+      "nx-q-000043"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-217",
+    "title": "部署静态网站案例217",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003454",
+      "nx-q-001111",
+      "nx-q-002890"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-218",
+    "title": "Vue history路由案例218",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002750",
+      "nx-q-003205",
+      "nx-q-001564"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-219",
+    "title": "404修复案例219",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000274",
+      "nx-q-000826",
+      "nx-q-001715"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-220",
+    "title": "反向代理后端API案例220",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002504",
+      "nx-q-000533",
+      "nx-q-002170"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-221",
+    "title": "HTTPS配置案例221",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003340",
+      "nx-q-000025",
+      "nx-q-001444"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-222",
+    "title": "HTTP跳转HTTPS案例222",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000929",
+      "nx-q-002867",
+      "nx-q-001428"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-223",
+    "title": "Gzip压缩案例223",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003652",
+      "nx-q-002468",
+      "nx-q-003244"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-224",
+    "title": "静态缓存案例224",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000786",
+      "nx-q-002913",
+      "nx-q-003251"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-225",
+    "title": "负载均衡案例225",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001673",
+      "nx-q-002417",
+      "nx-q-003210"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-226",
+    "title": "upstream配置案例226",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001481",
+      "nx-q-002090",
+      "nx-q-000165"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-227",
+    "title": "CORS跨域案例227",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001426",
+      "nx-q-002444",
+      "nx-q-000593"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-228",
+    "title": "日志分析案例228",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000577",
+      "nx-q-000288",
+      "nx-q-000874"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-229",
+    "title": "502排查案例229",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001991",
+      "nx-q-002361",
+      "nx-q-002117"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-230",
+    "title": "504排查案例230",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000206",
+      "nx-q-000371",
+      "nx-q-001525"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-231",
+    "title": "403排查案例231",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002193",
+      "nx-q-002553",
+      "nx-q-001422"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-232",
+    "title": "Docker Nginx部署案例232",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002362",
+      "nx-q-000403",
+      "nx-q-002991"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-233",
+    "title": "前后端分离部署案例233",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001695",
+      "nx-q-001794",
+      "nx-q-003357"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-234",
+    "title": "Nginx面试案例234",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002846",
+      "nx-q-000589",
+      "nx-q-002025"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-235",
+    "title": "部署静态网站案例235",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000622",
+      "nx-q-002075",
+      "nx-q-003023"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-236",
+    "title": "Vue history路由案例236",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001366",
+      "nx-q-001600",
+      "nx-q-002549"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-237",
+    "title": "404修复案例237",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001865",
+      "nx-q-000439",
+      "nx-q-001961"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-238",
+    "title": "反向代理后端API案例238",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003041",
+      "nx-q-002357",
+      "nx-q-000129"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-239",
+    "title": "HTTPS配置案例239",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001905",
+      "nx-q-002554",
+      "nx-q-002591"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-240",
+    "title": "HTTP跳转HTTPS案例240",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003623",
+      "nx-q-003668",
+      "nx-q-000176"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-241",
+    "title": "Gzip压缩案例241",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001432",
+      "nx-q-002166",
+      "nx-q-002160"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-242",
+    "title": "静态缓存案例242",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001153",
+      "nx-q-000040",
+      "nx-q-001325"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-243",
+    "title": "负载均衡案例243",
+    "description": "通过负载均衡掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002055",
+      "nx-q-001517",
+      "nx-q-002308"
+    ],
+    "tags": [
+      "负载均衡"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-244",
+    "title": "upstream配置案例244",
+    "description": "通过upstream配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003380",
+      "nx-q-000811",
+      "nx-q-003532"
+    ],
+    "tags": [
+      "upstream配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-245",
+    "title": "CORS跨域案例245",
+    "description": "通过CORS跨域掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000667",
+      "nx-q-000331",
+      "nx-q-001511"
+    ],
+    "tags": [
+      "CORS跨域"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-246",
+    "title": "日志分析案例246",
+    "description": "通过日志分析掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-003004",
+      "nx-q-001669",
+      "nx-q-002041"
+    ],
+    "tags": [
+      "日志分析"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-247",
+    "title": "502排查案例247",
+    "description": "通过502排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001085",
+      "nx-q-001152",
+      "nx-q-000001"
+    ],
+    "tags": [
+      "502排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-248",
+    "title": "504排查案例248",
+    "description": "通过504排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000100",
+      "nx-q-000854",
+      "nx-q-002391"
+    ],
+    "tags": [
+      "504排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-249",
+    "title": "403排查案例249",
+    "description": "通过403排查掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001751",
+      "nx-q-000661",
+      "nx-q-002006"
+    ],
+    "tags": [
+      "403排查"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-250",
+    "title": "Docker Nginx部署案例250",
+    "description": "通过Docker Nginx部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001615",
+      "nx-q-001356",
+      "nx-q-000730"
+    ],
+    "tags": [
+      "Docker Nginx部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-251",
+    "title": "前后端分离部署案例251",
+    "description": "通过前后端分离部署掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002281",
+      "nx-q-001499",
+      "nx-q-000929"
+    ],
+    "tags": [
+      "前后端分离部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-252",
+    "title": "Nginx面试案例252",
+    "description": "通过Nginx面试掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000875",
+      "nx-q-001504",
+      "nx-q-000125"
+    ],
+    "tags": [
+      "Nginx面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-253",
+    "title": "部署静态网站案例253",
+    "description": "通过部署静态网站掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001161",
+      "nx-q-001653",
+      "nx-q-002075"
+    ],
+    "tags": [
+      "部署静态网站"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-254",
+    "title": "Vue history路由案例254",
+    "description": "通过Vue history路由掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001482",
+      "nx-q-001401",
+      "nx-q-003675"
+    ],
+    "tags": [
+      "Vue history路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-255",
+    "title": "404修复案例255",
+    "description": "通过404修复掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-002618",
+      "nx-q-002558",
+      "nx-q-000992"
+    ],
+    "tags": [
+      "404修复"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-256",
+    "title": "反向代理后端API案例256",
+    "description": "通过反向代理后端API掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001467",
+      "nx-q-002458",
+      "nx-q-003329"
+    ],
+    "tags": [
+      "反向代理后端API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-257",
+    "title": "HTTPS配置案例257",
+    "description": "通过HTTPS配置掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001420",
+      "nx-q-002100",
+      "nx-q-000104"
+    ],
+    "tags": [
+      "HTTPS配置"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-258",
+    "title": "HTTP跳转HTTPS案例258",
+    "description": "通过HTTP跳转HTTPS掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-001962",
+      "nx-q-003294",
+      "nx-q-002738"
+    ],
+    "tags": [
+      "HTTP跳转HTTPS"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-259",
+    "title": "Gzip压缩案例259",
+    "description": "通过Gzip压缩掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000598",
+      "nx-q-001560",
+      "nx-q-003531"
+    ],
+    "tags": [
+      "Gzip压缩"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "nx-case-260",
+    "title": "静态缓存案例260",
+    "description": "通过静态缓存掌握Nginx",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "背景",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "配置",
+        "description": "实现"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "nx-q-000255",
+      "nx-q-001363",
+      "nx-q-001262"
+    ],
+    "tags": [
+      "静态缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  }
+]
