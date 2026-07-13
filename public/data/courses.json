@@ -34,7 +34,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-001",
+      "nx-lesson-002",
+      "nx-lesson-003",
+      "nx-lesson-004",
+      "nx-lesson-005",
+      "nx-lesson-006",
+      "nx-lesson-007",
+      "nx-lesson-008",
+      "nx-lesson-009",
+      "nx-lesson-010",
+      "nx-lesson-011",
+      "nx-lesson-012",
+      "nx-lesson-013"
+    ],
+    "summary": "Nginx概述、应用场景、学习路线。"
   },
   {
     "id": "nx-course-02",
@@ -71,7 +87,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-014",
+      "nx-lesson-015",
+      "nx-lesson-016",
+      "nx-lesson-017",
+      "nx-lesson-018",
+      "nx-lesson-019",
+      "nx-lesson-020",
+      "nx-lesson-021",
+      "nx-lesson-022",
+      "nx-lesson-023",
+      "nx-lesson-024",
+      "nx-lesson-025",
+      "nx-lesson-026"
+    ],
+    "summary": "正向代理、反向代理、负载均衡、高可用。"
   },
   {
     "id": "nx-course-03",
@@ -108,7 +140,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-027",
+      "nx-lesson-028",
+      "nx-lesson-029",
+      "nx-lesson-030",
+      "nx-lesson-031",
+      "nx-lesson-032",
+      "nx-lesson-033",
+      "nx-lesson-034",
+      "nx-lesson-035",
+      "nx-lesson-036",
+      "nx-lesson-037",
+      "nx-lesson-038",
+      "nx-lesson-039"
+    ],
+    "summary": "安装方式、目录文件、启动停止、reload。"
   },
   {
     "id": "nx-course-04",
@@ -145,7 +193,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-040",
+      "nx-lesson-041",
+      "nx-lesson-042",
+      "nx-lesson-043",
+      "nx-lesson-044",
+      "nx-lesson-045",
+      "nx-lesson-046",
+      "nx-lesson-047",
+      "nx-lesson-048",
+      "nx-lesson-049",
+      "nx-lesson-050",
+      "nx-lesson-051",
+      "nx-lesson-052"
+    ],
+    "summary": "main/events/http/server/location层级、指令块。"
   },
   {
     "id": "nx-course-05",
@@ -182,7 +246,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-053",
+      "nx-lesson-054",
+      "nx-lesson-055",
+      "nx-lesson-056",
+      "nx-lesson-057",
+      "nx-lesson-058",
+      "nx-lesson-059",
+      "nx-lesson-060",
+      "nx-lesson-061",
+      "nx-lesson-062",
+      "nx-lesson-063",
+      "nx-lesson-064",
+      "nx-lesson-065"
+    ],
+    "summary": "server配置、location匹配、root/alias、try_files。"
   },
   {
     "id": "nx-course-06",
@@ -219,7 +299,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-066",
+      "nx-lesson-067",
+      "nx-lesson-068",
+      "nx-lesson-069",
+      "nx-lesson-070",
+      "nx-lesson-071",
+      "nx-lesson-072",
+      "nx-lesson-073",
+      "nx-lesson-074",
+      "nx-lesson-075",
+      "nx-lesson-076",
+      "nx-lesson-077",
+      "nx-lesson-078"
+    ],
+    "summary": "proxy_pass、头传递、超时配置、上游健康检查。"
   },
   {
     "id": "nx-course-07",
@@ -256,7 +352,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-079",
+      "nx-lesson-080",
+      "nx-lesson-081",
+      "nx-lesson-082",
+      "nx-lesson-083",
+      "nx-lesson-084",
+      "nx-lesson-085",
+      "nx-lesson-086",
+      "nx-lesson-087",
+      "nx-lesson-088",
+      "nx-lesson-089",
+      "nx-lesson-090",
+      "nx-lesson-091"
+    ],
+    "summary": "轮询、权重、ip_hash、least_conn、upstream配置。"
   },
   {
     "id": "nx-course-08",
@@ -293,7 +405,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-092",
+      "nx-lesson-093",
+      "nx-lesson-094",
+      "nx-lesson-095",
+      "nx-lesson-096",
+      "nx-lesson-097",
+      "nx-lesson-098",
+      "nx-lesson-099",
+      "nx-lesson-100",
+      "nx-lesson-101",
+      "nx-lesson-102",
+      "nx-lesson-103",
+      "nx-lesson-104"
+    ],
+    "summary": "SSL证书配置、HTTP/2、HTTPS跳转、TLS优化。"
   },
   {
     "id": "nx-course-09",
@@ -330,7 +458,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-105",
+      "nx-lesson-106",
+      "nx-lesson-107",
+      "nx-lesson-108",
+      "nx-lesson-109",
+      "nx-lesson-110",
+      "nx-lesson-111",
+      "nx-lesson-112",
+      "nx-lesson-113",
+      "nx-lesson-114",
+      "nx-lesson-115",
+      "nx-lesson-116",
+      "nx-lesson-117"
+    ],
+    "summary": "Gzip压缩、expires、Cache-Control、资源优化。"
   },
   {
     "id": "nx-course-10",
@@ -367,7 +511,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-118",
+      "nx-lesson-119",
+      "nx-lesson-120",
+      "nx-lesson-121",
+      "nx-lesson-122",
+      "nx-lesson-123",
+      "nx-lesson-124",
+      "nx-lesson-125",
+      "nx-lesson-126",
+      "nx-lesson-127",
+      "nx-lesson-128",
+      "nx-lesson-129",
+      "nx-lesson-130"
+    ],
+    "summary": "CORS配置、安全头、防盗链、basic auth。"
   },
   {
     "id": "nx-course-11",
@@ -404,7 +564,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-131",
+      "nx-lesson-132",
+      "nx-lesson-133",
+      "nx-lesson-134",
+      "nx-lesson-135",
+      "nx-lesson-136",
+      "nx-lesson-137",
+      "nx-lesson-138",
+      "nx-lesson-139",
+      "nx-lesson-140",
+      "nx-lesson-141",
+      "nx-lesson-142",
+      "nx-lesson-143"
+    ],
+    "summary": "access_log、error_log、limit_req、限流配置。"
   },
   {
     "id": "nx-course-12",
@@ -441,7 +617,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-144",
+      "nx-lesson-145",
+      "nx-lesson-146",
+      "nx-lesson-147",
+      "nx-lesson-148",
+      "nx-lesson-149",
+      "nx-lesson-150",
+      "nx-lesson-151",
+      "nx-lesson-152",
+      "nx-lesson-153",
+      "nx-lesson-154",
+      "nx-lesson-155",
+      "nx-lesson-156"
+    ],
+    "summary": "Vue/React部署、反向代理多个后端、Docker Nginx。"
   },
   {
     "id": "nx-course-13",
@@ -478,7 +670,23 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-157",
+      "nx-lesson-158",
+      "nx-lesson-159",
+      "nx-lesson-160",
+      "nx-lesson-161",
+      "nx-lesson-162",
+      "nx-lesson-163",
+      "nx-lesson-164",
+      "nx-lesson-165",
+      "nx-lesson-166",
+      "nx-lesson-167",
+      "nx-lesson-168",
+      "nx-lesson-169"
+    ],
+    "summary": "502/504/403排查、worker配置、连接数优化。"
   },
   {
     "id": "nx-course-14",
@@ -515,6 +723,22 @@
       "会HTTPS部署",
       "能排查问题"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "lessons": [
+      "nx-lesson-170",
+      "nx-lesson-171",
+      "nx-lesson-172",
+      "nx-lesson-173",
+      "nx-lesson-174",
+      "nx-lesson-175",
+      "nx-lesson-176",
+      "nx-lesson-177",
+      "nx-lesson-178",
+      "nx-lesson-179",
+      "nx-lesson-180",
+      "nx-lesson-181",
+      "nx-lesson-182"
+    ],
+    "summary": "完整部署项目、面试题、配置场景。"
   }
 ]
