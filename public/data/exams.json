@@ -1,31 +1,64 @@
 [
   {
     "id": "mod-nginx-webserver-exam-1",
-    "slug": "final-exam",
-    "title": "Nginx与Web服务部署 核心期末综合自测",
-    "summary": "全面检验您对 Nginx与Web服务部署 所有阶段知识体系的掌握程度。",
+    "slug": "basic-exam",
+    "title": "Nginx 基础入门测评",
+    "summary": "覆盖 Nginx 角色定位、进程模型、基础运维命令与常用指令的入门摸底卷。",
     "difficulty": "easy",
     "questionIds": [
       "mod-nginx-webserver-q-1",
-      "mod-nginx-webserver-q-2",
-      "mod-nginx-webserver-q-3",
-      "mod-nginx-webserver-q-4",
       "mod-nginx-webserver-q-5",
-      "mod-nginx-webserver-q-6"
+      "mod-nginx-webserver-q-7",
+      "mod-nginx-webserver-q-9",
+      "mod-nginx-webserver-q-15",
+      "mod-nginx-webserver-q-19",
+      "mod-nginx-webserver-q-20",
+      "mod-nginx-webserver-q-21",
+      "mod-nginx-webserver-q-23"
     ],
-    "timeLimitMinutes": 60,
+    "timeLimitMinutes": 15,
     "passingScore": 60
   },
   {
     "id": "mod-nginx-webserver-exam-2",
-    "slug": "basic-exam",
-    "title": "Nginx与Web服务部署 基础概念快速评估",
-    "summary": "针对核心基础概念的摸底评估，题目精炼。",
-    "difficulty": "easy",
+    "slug": "advanced-exam",
+    "title": "Nginx 进阶强化训练",
+    "summary": "聚焦反向代理、负载均衡、HTTPS 与性能优化等核心配置能力的强化练习卷。",
+    "difficulty": "medium",
     "questionIds": [
-      "mod-nginx-webserver-q-1",
+      "mod-nginx-webserver-q-4",
+      "mod-nginx-webserver-q-6",
+      "mod-nginx-webserver-q-8",
+      "mod-nginx-webserver-q-10",
+      "mod-nginx-webserver-q-11",
+      "mod-nginx-webserver-q-13",
+      "mod-nginx-webserver-q-14",
+      "mod-nginx-webserver-q-16",
+      "mod-nginx-webserver-q-17",
+      "mod-nginx-webserver-q-22"
+    ],
+    "timeLimitMinutes": 20,
+    "passingScore": 60
+  },
+  {
+    "id": "mod-nginx-webserver-exam-3",
+    "slug": "comprehensive-exam",
+    "title": "Nginx 综合模拟考试",
+    "summary": "包含 location 匹配、proxy_pass 斜杠语义、限流与事件模型等难点的全真模拟卷。",
+    "difficulty": "hard",
+    "questionIds": [
       "mod-nginx-webserver-q-2",
-      "mod-nginx-webserver-q-3"
+      "mod-nginx-webserver-q-3",
+      "mod-nginx-webserver-q-4",
+      "mod-nginx-webserver-q-6",
+      "mod-nginx-webserver-q-8",
+      "mod-nginx-webserver-q-12",
+      "mod-nginx-webserver-q-13",
+      "mod-nginx-webserver-q-14",
+      "mod-nginx-webserver-q-16",
+      "mod-nginx-webserver-q-18",
+      "mod-nginx-webserver-q-22",
+      "mod-nginx-webserver-q-24"
     ],
     "timeLimitMinutes": 30,
     "passingScore": 60

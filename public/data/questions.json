@@ -1,218 +1,781 @@
 [
   {
     "id": "mod-nginx-webserver-q-1",
-    "slug": "question-course-1-2",
+    "slug": "question-1",
     "type": "single",
-    "stem": "在学习 [Nginx与Web服务部署] 的过程里，关于“Nginx与Web服务部署 环境依赖搭建与运行机制”的核心考点，以下表述最为准确的是？",
+    "stem": "修改了 nginx.conf 之后，希望在不中断现有连接的情况下让新配置生效，应执行哪个命令？",
     "options": [
       {
         "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
+        "text": "nginx -s reload"
       },
       {
         "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
+        "text": "nginx -s stop && nginx"
       },
       {
         "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
+        "text": "kill -9 $(cat /run/nginx.pid)"
       },
       {
         "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
+        "text": "nginx -V"
       }
     ],
     "answer": [
-      "0"
+      "A"
     ],
-    "explanation": "关于“Nginx与Web服务部署 环境依赖搭建与运行机制”的正确答案为 A。解析：在 Nginx与Web服务部署 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
+    "explanation": "nginx -s reload 向 master 进程发送 HUP 信号：master 校验新配置后启动新的 worker 进程接管新连接，旧 worker 处理完存量请求后优雅退出，实现平滑重载。B 会瞬间断开所有连接；C 强杀 master 更是服务中断且不优雅；D 只是打印编译参数。",
     "tags": [
-      "Nginx与Web服务部署",
-      "基础考点"
+      "运维",
+      "reload",
+      "信号"
     ],
-    "difficulty": "medium",
-    "chapter": "course-1",
+    "difficulty": "easy",
+    "chapter": "mod-nginx-webserver-c-1",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-nginx-webserver-q-2",
-    "slug": "question-course-1-3",
+    "slug": "question-2",
     "type": "single",
-    "stem": "在学习 [Nginx与Web服务部署] 的过程里，关于“Nginx与Web服务部署 配置文件覆盖与属性解析”的核心考点，以下表述最为准确的是？",
+    "stem": "Nginx 中同时存在以下 location 块，请求 URI 为 /images/logo.png 时，最终由哪个块处理？\n\nlocation / { ... }            # 块1\nlocation ^~ /images/ { ... }  # 块2\nlocation ~ \\.png$ { ... }     # 块3\nlocation = /images/logo.png { ... }  # 块4",
     "options": [
       {
         "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
+        "text": "块4，精确匹配 = 优先级最高"
       },
       {
         "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
+        "text": "块3，正则匹配总是优先于前缀匹配"
       },
       {
         "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
+        "text": "块2，^~ 命中后仍会继续检查正则"
       },
       {
         "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
+        "text": "块1，最先出现的 location 优先"
       }
     ],
     "answer": [
-      "0"
+      "A"
     ],
-    "explanation": "关于“Nginx与Web服务部署 配置文件覆盖与属性解析”的正确答案为 A。解析：在 Nginx与Web服务部署 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
+    "explanation": "location 匹配顺序为：先看 = 精确匹配，命中立即使用（块4 与 URI 完全一致，直接胜出）；若无精确匹配，记录最长前缀匹配，若该前缀带 ^~ 则跳过正则直接使用；否则按配置顺序尝试正则（~ 区分大小写、~* 不区分），正则命中则用正则，否则回落到最长前缀。B 忽略了 = 与 ^~ 的存在；C 说反了，^~ 的意义正是阻止正则检查；D 中 location 之间与书写顺序基本无关（仅正则之间按顺序）。",
     "tags": [
-      "Nginx与Web服务部署",
-      "基础考点"
+      "location",
+      "匹配优先级"
     ],
-    "difficulty": "medium",
-    "chapter": "course-1",
+    "difficulty": "hard",
+    "chapter": "mod-nginx-webserver-c-1",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 4
   },
   {
     "id": "mod-nginx-webserver-q-3",
-    "slug": "question-course-2-4",
+    "slug": "question-3",
     "type": "single",
-    "stem": "在学习 [Nginx与Web服务部署] 的过程里，关于“Nginx与Web服务部署 API 接口规范与数据通信”的核心考点，以下表述最为准确的是？",
+    "stem": "配置如下：\n\nlocation /api/ {\n    proxy_pass http://backend:8080/;\n}\n\n客户端请求 /api/user/list，后端实际收到的路径是？",
     "options": [
       {
         "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
+        "text": "/user/list"
       },
       {
         "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
+        "text": "/api/user/list"
       },
       {
         "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
+        "text": "/api/api/user/list"
       },
       {
         "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
+        "text": "/，路径信息被丢弃"
       }
     ],
     "answer": [
-      "0"
+      "A"
     ],
-    "explanation": "关于“Nginx与Web服务部署 API 接口规范与数据通信”的正确答案为 A。解析：在 Nginx与Web服务部署 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
+    "explanation": "当 proxy_pass 的 URL 带有路径部分（这里是末尾的 /）时，Nginx 会把 location 匹配到的前缀 /api/ 替换为该路径：/api/user/list → / + user/list = /user/list。如果写成 proxy_pass http://backend:8080（不带 /），则原始 URI 原样透传，后端收到 /api/user/list（选项 B 的情形）。这个斜杠差异是反向代理配置中最常见的踩坑点。",
     "tags": [
-      "Nginx与Web服务部署",
-      "基础考点"
+      "反向代理",
+      "proxy_pass"
     ],
-    "difficulty": "medium",
-    "chapter": "course-2",
+    "difficulty": "hard",
+    "chapter": "mod-nginx-webserver-c-1",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 4
   },
   {
     "id": "mod-nginx-webserver-q-4",
-    "slug": "question-course-2-5",
+    "slug": "question-4",
     "type": "single",
-    "stem": "在学习 [Nginx与Web服务部署] 的过程里，关于“Nginx与Web服务部署 核心控制器与数据校验机制”的核心考点，以下表述最为准确的是？",
+    "stem": "配置 location /static/ { root /data/www; } 时，请求 /static/a.css 实际读取的文件是？",
     "options": [
       {
         "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
+        "text": "/data/www/static/a.css，root 会把完整 URI 拼接到路径后面"
       },
       {
         "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
+        "text": "/data/www/a.css，root 会去掉 location 前缀"
       },
       {
         "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
+        "text": "/data/www/static/static/a.css"
       },
       {
         "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
+        "text": "配置非法，root 不能用于带路径的 location"
       }
     ],
     "answer": [
-      "0"
+      "A"
     ],
-    "explanation": "关于“Nginx与Web服务部署 核心控制器与数据校验机制”的正确答案为 A。解析：在 Nginx与Web服务部署 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
+    "explanation": "root 的规则是：文件路径 = root 值 + 完整请求 URI，因此是 /data/www/static/a.css。而 alias 才是用 alias 值替换掉 location 匹配的前缀：若配置 alias /data/www/，则读取 /data/www/a.css（即选项 B 的效果）。混淆 root 与 alias 会导致 404，是静态资源配置的高频错误。",
     "tags": [
-      "Nginx与Web服务部署",
-      "基础考点"
+      "静态资源",
+      "root",
+      "alias"
     ],
     "difficulty": "medium",
-    "chapter": "course-2",
+    "chapter": "mod-nginx-webserver-c-2",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
   },
   {
     "id": "mod-nginx-webserver-q-5",
-    "slug": "question-course-3-6",
+    "slug": "question-5",
     "type": "single",
-    "stem": "在学习 [Nginx与Web服务部署] 的过程里，关于“Nginx与Web服务部署 缓存优化与垃圾回收调优”的核心考点，以下表述最为准确的是？",
+    "stem": "配置 worker_processes auto; 的含义是？",
     "options": [
       {
         "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
+        "text": "根据 CPU 核心数自动设置 worker 进程数量"
       },
       {
         "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
+        "text": "根据实时流量动态增减 worker 进程"
       },
       {
         "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
+        "text": "由操作系统随机决定进程数"
       },
       {
         "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
+        "text": "只启动一个 worker 并自动重启"
       }
     ],
     "answer": [
-      "0"
+      "A"
     ],
-    "explanation": "关于“Nginx与Web服务部署 缓存优化与垃圾回收调优”的正确答案为 A。解析：在 Nginx与Web服务部署 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
+    "explanation": "worker_processes auto 让 Nginx 启动时检测可用 CPU 核心数并创建等量 worker，通常配合 worker_cpu_affinity 把 worker 绑定到核心，充分利用多核并减少上下文切换。它是启动时一次性确定的，不会随流量动态伸缩（B 错误）。",
     "tags": [
-      "Nginx与Web服务部署",
-      "基础考点"
+      "worker",
+      "性能"
     ],
-    "difficulty": "medium",
-    "chapter": "course-3",
+    "difficulty": "easy",
+    "chapter": "mod-nginx-webserver-c-2",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-nginx-webserver-q-6",
-    "slug": "question-course-3-7",
+    "slug": "question-6",
     "type": "single",
-    "stem": "在学习 [Nginx与Web服务部署] 的过程里，关于“Nginx与Web服务部署 可观测性日志与分布式链路监控”的核心考点，以下表述最为准确的是？",
+    "stem": "Nginx 作为反向代理时，502 Bad Gateway 与 504 Gateway Timeout 的区别是？",
     "options": [
       {
         "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
+        "text": "502 表示后端返回了无效响应或连接被拒绝；504 表示后端在超时时间内没有返回响应"
       },
       {
         "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
+        "text": "502 是客户端网络问题；504 是 Nginx 自身崩溃"
       },
       {
         "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
+        "text": "两者等价，只是 Nginx 版本不同导致编号不同"
       },
       {
         "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
+        "text": "502 表示请求被限流；504 表示证书过期"
       }
     ],
     "answer": [
-      "0"
+      "A"
     ],
-    "explanation": "关于“Nginx与Web服务部署 可观测性日志与分布式链路监控”的正确答案为 A。解析：在 Nginx与Web服务部署 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
+    "explanation": "502 通常出现在后端进程挂掉、端口未监听（connection refused）或返回了不合法的响应时；504 则是后端存活但处理太慢，超过了 proxy_read_timeout / proxy_connect_timeout 等时限。排查方向不同：502 先查后端是否存活，504 先查后端慢在哪里或调大超时。限流触发的通常是 503，证书问题表现为 TLS 握手失败。",
     "tags": [
-      "Nginx与Web服务部署",
-      "基础考点"
+      "反向代理",
+      "故障排查",
+      "HTTP状态码"
     ],
     "difficulty": "medium",
-    "chapter": "course-3",
+    "chapter": "mod-nginx-webserver-c-2",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-nginx-webserver-q-7",
+    "slug": "question-7",
+    "type": "single",
+    "stem": "upstream 块中未指定任何负载均衡指令时，Nginx 默认采用哪种算法分发请求？",
+    "options": [
+      {
+        "key": "A",
+        "text": "加权轮询（round-robin）"
+      },
+      {
+        "key": "B",
+        "text": "最少连接（least_conn）"
+      },
+      {
+        "key": "C",
+        "text": "源地址哈希（ip_hash）"
+      },
+      {
+        "key": "D",
+        "text": "随机（random）"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "默认算法是加权轮询：按 server 的 weight（默认 1）依次把请求分配给各后端。least_conn、ip_hash、hash、random 都需要在 upstream 块中显式声明才会启用。",
+    "tags": [
+      "负载均衡",
+      "upstream"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-nginx-webserver-c-3",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-nginx-webserver-q-8",
+    "slug": "question-8",
+    "type": "single",
+    "stem": "某传统应用把用户会话保存在应用服务器本地内存中。为避免用户请求被分发到不同后端导致会话丢失，upstream 中应使用哪个指令？",
+    "options": [
+      {
+        "key": "A",
+        "text": "ip_hash"
+      },
+      {
+        "key": "B",
+        "text": "least_conn"
+      },
+      {
+        "key": "C",
+        "text": "keepalive 32"
+      },
+      {
+        "key": "D",
+        "text": "backup"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "ip_hash 按客户端 IP 计算哈希，使同一来源的请求始终落到同一台后端，实现会话粘滞（sticky session），适合本地会话的旧系统。least_conn 只考虑连接数不保证粘滞；keepalive 是维持 Nginx 与后端的长连接池，与会话无关；backup 是把某台服务器标记为备机。更彻底的方案是把会话外置到 Redis 等共享存储。",
+    "tags": [
+      "负载均衡",
+      "会话保持"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-nginx-webserver-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-nginx-webserver-q-9",
+    "slug": "question-9",
+    "type": "single",
+    "stem": "网站永久迁移到新域名，希望搜索引擎把权重转移到新地址，Nginx 中应返回哪种重定向？",
+    "options": [
+      {
+        "key": "A",
+        "text": "return 301 https://new.example.com$request_uri;"
+      },
+      {
+        "key": "B",
+        "text": "return 302 https://new.example.com$request_uri;"
+      },
+      {
+        "key": "C",
+        "text": "return 200 \"moved\";"
+      },
+      {
+        "key": "D",
+        "text": "return 404;"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "301 Moved Permanently 表示永久重定向，搜索引擎会更新索引并转移权重，浏览器也会缓存该跳转。302 Found 是临时重定向，搜索引擎仍保留旧地址，适合临时维护页等场景。$request_uri 保证原路径和查询串被完整带到新域名。",
+    "tags": [
+      "重定向",
+      "HTTP状态码"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-nginx-webserver-c-3",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-nginx-webserver-q-10",
+    "slug": "question-10",
+    "type": "single",
+    "stem": "Nginx 配置中 sendfile on; 的作用是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "启用内核零拷贝，文件数据不经用户态缓冲区直接发送到 socket，提升静态文件传输效率"
+      },
+      {
+        "key": "B",
+        "text": "允许客户端向服务器上传文件"
+      },
+      {
+        "key": "C",
+        "text": "开启文件目录浏览功能"
+      },
+      {
+        "key": "D",
+        "text": "把响应内容先写入临时文件再发送"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "sendfile on 让 Nginx 使用操作系统的 sendfile() 系统调用，文件内容在内核空间直接从页缓存送入网络协议栈，省去内核态与用户态之间的往返拷贝和上下文切换，是静态资源服务的基础优化项，常与 tcp_nopush 搭配。目录浏览是 autoindex 指令；文件上传与该指令无关。",
+    "tags": [
+      "性能优化",
+      "sendfile",
+      "零拷贝"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-nginx-webserver-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-nginx-webserver-q-11",
+    "slug": "question-11",
+    "type": "single",
+    "stem": "开启了 gzip on; 后发现 .css 和 .js 文件仍未被压缩，最可能的原因是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "gzip_types 未包含 text/css 和 application/javascript，默认只压缩 text/html"
+      },
+      {
+        "key": "B",
+        "text": "gzip 只对图片生效"
+      },
+      {
+        "key": "C",
+        "text": "必须重新编译 Nginx 才能压缩 CSS"
+      },
+      {
+        "key": "D",
+        "text": "gzip 与 sendfile 冲突，开启 sendfile 后压缩自动失效"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "gzip on 默认只压缩 text/html 一种 MIME 类型，其他类型必须通过 gzip_types 显式列出，如 gzip_types text/css application/javascript application/json;。另外还要注意 gzip_min_length（过小的文件不压缩）和代理场景下的 gzip_proxied。JPEG/PNG 等图片本身已压缩，一般不再 gzip（B 说反了）；无需重新编译；gzip 与 sendfile 并不冲突。",
+    "tags": [
+      "gzip",
+      "性能优化"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-nginx-webserver-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-nginx-webserver-q-12",
+    "slug": "question-12",
+    "type": "single",
+    "stem": "配置限流：\n\nlimit_req_zone $binary_remote_addr zone=api:10m rate=10r/s;\nlocation /api/ {\n    limit_req zone=api burst=20 nodelay;\n}\n\n关于该配置的说法正确的是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "每个客户端 IP 平均限速 10 请求/秒，突发最多再容纳 20 个请求立即处理，超出的直接拒绝（默认 503）"
+      },
+      {
+        "key": "B",
+        "text": "全站所有用户共享每秒 10 个请求的总配额"
+      },
+      {
+        "key": "C",
+        "text": "burst=20 表示每秒额外放行 20 个请求，等于把限速提高到 30r/s"
+      },
+      {
+        "key": "D",
+        "text": "nodelay 表示不限速，仅记录日志"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "limit_req 基于漏桶算法：zone 的 key 是 $binary_remote_addr，即按客户端 IP 独立计数（B 错误）；rate=10r/s 是稳态速率；burst=20 是桶的容量，允许短时突发排队；nodelay 让突发范围内的请求立即处理而不是按速率延迟放行，但桶满后新请求仍被拒绝，长期吞吐量依然是 10r/s（C 错误，burst 不提高稳态速率）。nodelay 绝不是关闭限流（D 错误）。",
+    "tags": [
+      "限流",
+      "limit_req",
+      "漏桶"
+    ],
+    "difficulty": "hard",
+    "chapter": "mod-nginx-webserver-c-3",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-nginx-webserver-q-13",
+    "slug": "question-13",
+    "type": "single",
+    "stem": "部署 Vue/React 等单页应用（history 路由模式）时，为什么通常要配置 try_files $uri $uri/ /index.html; ？",
+    "options": [
+      {
+        "key": "A",
+        "text": "让 /user/42 这类前端路由路径在服务器上找不到对应文件时回退返回 index.html，由前端路由接管渲染"
+      },
+      {
+        "key": "B",
+        "text": "把所有请求强制重定向到网站首页，丢弃原始路径"
+      },
+      {
+        "key": "C",
+        "text": "开启静态文件缓存"
+      },
+      {
+        "key": "D",
+        "text": "防止用户直接访问 index.html"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "SPA 的路由（如 /user/42）只存在于浏览器端，服务器上并没有对应文件。用户直接刷新或分享该链接时，Nginx 按 try_files 依次尝试 $uri（具体文件）、$uri/（目录），都不存在则内部重写到 /index.html，返回应用外壳后由前端路由解析路径渲染页面。这是内部 rewrite 而非 301/302 重定向，浏览器地址栏不变（B 错误）。",
+    "tags": [
+      "try_files",
+      "单页应用"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-nginx-webserver-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-nginx-webserver-q-14",
+    "slug": "question-14",
+    "type": "single",
+    "stem": "后端应用日志里所有请求的来源 IP 都是 Nginx 服务器自己的 IP。要让后端拿到真实客户端 IP，常规做法是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "在代理配置中加 proxy_set_header X-Real-IP $remote_addr; 和 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;，后端读取对应请求头"
+      },
+      {
+        "key": "B",
+        "text": "把 Nginx 换成四层 TCP 转发即可自动透传客户端 IP"
+      },
+      {
+        "key": "C",
+        "text": "让后端解析 TCP 包头获取 IP，无需任何配置"
+      },
+      {
+        "key": "D",
+        "text": "开启 proxy_buffering 即可传递真实 IP"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "七层反向代理与后端之间是 Nginx 新建的 TCP 连接，后端从 socket 看到的对端自然是 Nginx。标准做法是由 Nginx 把客户端地址塞进请求头：X-Real-IP 放直接来源，X-Forwarded-For 用 $proxy_add_x_forwarded_for 追加形成代理链，后端框架读取这些头（并配置可信代理列表防伪造）。四层转发默认同样会改变源地址，除非引入 proxy protocol 或透明代理等额外机制（B 不成立）；proxy_buffering 只影响响应缓冲。",
+    "tags": [
+      "反向代理",
+      "真实IP",
+      "请求头"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-nginx-webserver-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-nginx-webserver-q-15",
+    "slug": "question-15",
+    "type": "multiple",
+    "stem": "Nginx 可以胜任下列哪些角色？（多选）",
+    "options": [
+      {
+        "key": "A",
+        "text": "静态资源 Web 服务器"
+      },
+      {
+        "key": "B",
+        "text": "HTTP 反向代理与负载均衡器"
+      },
+      {
+        "key": "C",
+        "text": "TCP/UDP 四层代理（stream 模块）"
+      },
+      {
+        "key": "D",
+        "text": "关系型数据库存储引擎"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Nginx 最初以高性能静态文件服务和反向代理著称，upstream 机制提供负载均衡能力，stream 模块还能对 MySQL、Redis 等任意 TCP/UDP 流量做四层转发，此外还常用于 TLS 终止、API 网关基座。它不是数据库，不提供数据存储引擎功能。",
+    "tags": [
+      "架构角色",
+      "基础概念"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-nginx-webserver-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-nginx-webserver-q-16",
+    "slug": "question-16",
+    "type": "multiple",
+    "stem": "为站点启用 HTTPS，server 块中通常必须或应当出现下列哪些配置？（多选）",
+    "options": [
+      {
+        "key": "A",
+        "text": "listen 443 ssl;"
+      },
+      {
+        "key": "B",
+        "text": "ssl_certificate 指向证书链文件（含服务器证书与中间证书）"
+      },
+      {
+        "key": "C",
+        "text": "ssl_certificate_key 指向私钥文件"
+      },
+      {
+        "key": "D",
+        "text": "autoindex on;"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "HTTPS 的最小配置是三件套：在 443 端口开启 ssl、ssl_certificate 提供完整证书链（缺中间证书会导致部分客户端握手失败）、ssl_certificate_key 提供私钥。生产上还应配置 ssl_protocols TLSv1.2 TLSv1.3、HSTS 头以及 80 端口到 443 的 301 跳转。autoindex 是目录列表功能，与 HTTPS 毫无关系。",
+    "tags": [
+      "HTTPS",
+      "TLS",
+      "证书"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-nginx-webserver-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-nginx-webserver-q-17",
+    "slug": "question-17",
+    "type": "multiple",
+    "stem": "以下哪些手段能有效提升 Nginx 静态资源服务的性能或降低带宽消耗？（多选）",
+    "options": [
+      {
+        "key": "A",
+        "text": "开启 sendfile 与 tcp_nopush"
+      },
+      {
+        "key": "B",
+        "text": "对文本类资源开启 gzip（或 brotli）压缩"
+      },
+      {
+        "key": "C",
+        "text": "用 expires / Cache-Control 为带指纹的静态文件设置长缓存"
+      },
+      {
+        "key": "D",
+        "text": "把 access_log 设为最详细级别记录所有请求细节"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "sendfile+tcp_nopush 走零拷贝并攒满包发送；gzip/brotli 可把文本资源体积压缩到原来的 20%-30%；对文件名带内容哈希的资源设置 expires max 或 Cache-Control: max-age 让浏览器直接命中本地缓存，三者都是标准优化。把日志调到最详细会显著增加磁盘 I/O，属于性能负优化——高并发场景反而常用 access_log off 或 buffer 缓冲写入。",
+    "tags": [
+      "性能优化",
+      "缓存",
+      "压缩"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-nginx-webserver-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-nginx-webserver-q-18",
+    "slug": "question-18",
+    "type": "multiple",
+    "stem": "关于 Nginx 的进程与事件模型，下列说法正确的有？（多选）",
+    "options": [
+      {
+        "key": "A",
+        "text": "采用 master-worker 多进程架构，master 负责管理，worker 处理请求"
+      },
+      {
+        "key": "B",
+        "text": "worker 内部基于事件驱动（Linux 上用 epoll）以非阻塞方式处理大量并发连接"
+      },
+      {
+        "key": "C",
+        "text": "每接受一个新连接就创建一个新线程专门服务，连接关闭后销毁线程"
+      },
+      {
+        "key": "D",
+        "text": "单个 worker 可同时维护成千上万条连接，上限受 worker_connections 等配置约束"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Nginx 的高并发能力来自 master-worker 多进程加事件驱动：master 读配置、管理 worker、处理信号；每个 worker 是单线程事件循环，用 epoll/kqueue 监听就绪事件，非阻塞地在海量连接间切换，因此单 worker 就能支撑上万连接（受 worker_connections 与系统 fd 上限约束）。C 描述的是每连接一线程的传统模型，正是 Nginx 刻意避免的高开销模式（C10K 问题的根源）。",
+    "tags": [
+      "架构原理",
+      "事件驱动",
+      "epoll"
+    ],
+    "difficulty": "hard",
+    "chapter": "mod-nginx-webserver-c-1",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-nginx-webserver-q-19",
+    "slug": "question-19",
+    "type": "judge",
+    "stem": "Nginx 采用 master-worker 多进程架构：master 进程负责读取配置和管理 worker，实际的请求由 worker 进程处理。",
+    "options": [],
+    "answer": [
+      "T"
+    ],
+    "explanation": "正确。master 以 root 权限启动，负责绑定端口、加载配置、按 worker_processes 派生 worker、接收信号完成平滑重载和升级；worker 通常以低权限用户（如 www-data）运行，通过事件循环处理实际连接，进程隔离也提升了稳定性与安全性。",
+    "tags": [
+      "架构原理",
+      "进程模型"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-nginx-webserver-c-2",
+    "knowledge_points": [],
+    "estimated_time": 1
+  },
+  {
+    "id": "mod-nginx-webserver-q-20",
+    "slug": "question-20",
+    "type": "judge",
+    "stem": "修改 Nginx 配置文件后，必须先完全停止服务再重新启动才能使配置生效。",
+    "options": [],
+    "answer": [
+      "F"
+    ],
+    "explanation": "错误。nginx -s reload（或 systemctl reload nginx）即可平滑重载：master 校验并加载新配置，启动新 worker，旧 worker 优雅退出，整个过程不中断服务。只有少数场景（如更换监听端口发生冲突、二进制升级异常）才需要完全重启。修改后建议先 nginx -t 验证语法再 reload。",
+    "tags": [
+      "运维",
+      "reload"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-nginx-webserver-c-3",
+    "knowledge_points": [],
+    "estimated_time": 1
+  },
+  {
+    "id": "mod-nginx-webserver-q-21",
+    "slug": "question-21",
+    "type": "judge",
+    "stem": "location 中使用 ~ 表示区分大小写的正则匹配，而 ~* 表示不区分大小写的正则匹配。",
+    "options": [],
+    "answer": [
+      "T"
+    ],
+    "explanation": "正确。~ 是大小写敏感的正则，如 location ~ \\.php$ 不会匹配 a.PHP；~* 忽略大小写，location ~* \\.(jpg|png)$ 能同时匹配 .JPG、.Png 等。另外 = 是精确匹配，^~ 是命中最长前缀后禁止继续正则匹配的修饰符。",
+    "tags": [
+      "location",
+      "正则匹配"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-nginx-webserver-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-nginx-webserver-q-22",
+    "slug": "question-22",
+    "type": "judge",
+    "stem": "upstream 中为某台 server 配置 weight=3、其余保持默认时，默认的轮询算法会让该服务器大约收到三倍于其他单台服务器的请求量。",
+    "options": [],
+    "answer": [
+      "T"
+    ],
+    "explanation": "正确。Nginx 默认的轮询是加权轮询（weighted round-robin），weight 默认为 1，配置 weight=3 的节点在每个调度周期内会被选中 3 次。常用于新旧机器配置不均或灰度引流场景。此外还可配 max_fails/fail_timeout 做被动健康检查，故障节点会被暂时摘除。",
+    "tags": [
+      "负载均衡",
+      "权重"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-nginx-webserver-c-2",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-nginx-webserver-q-23",
+    "slug": "question-23",
+    "type": "short",
+    "stem": "写出在应用新配置之前检查 nginx.conf 语法是否正确的命令。",
+    "options": [],
+    "answer": [
+      "nginx -t|nginx -t -c /etc/nginx/nginx.conf|nginx -T"
+    ],
+    "explanation": "nginx -t 会解析配置文件并输出 syntax is ok / test is successful 或具体错误位置，-c 可指定配置路径，nginx -T 在测试的同时把最终生效的完整配置打印出来（便于确认 include 展开结果）。上线流程应固化为：改配置 → nginx -t → nginx -s reload。",
+    "tags": [
+      "运维",
+      "配置校验"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-nginx-webserver-c-3",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-nginx-webserver-q-24",
+    "slug": "question-24",
+    "type": "short",
+    "stem": "Nginx 反向代理场景中，用于把客户端原始 IP 沿代理链逐跳追加传递给后端的事实标准请求头名称是什么？",
+    "options": [],
+    "answer": [
+      "X-Forwarded-For|x-forwarded-for|XFF"
+    ],
+    "explanation": "X-Forwarded-For 是事实标准的代理链头，格式为 client, proxy1, proxy2，每经过一层代理追加一个地址，Nginx 中用 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; 设置。由于该头可被客户端伪造，后端必须只信任来自已知代理的部分；相关的还有 X-Real-IP 和 RFC 7239 标准化的 Forwarded 头。",
+    "tags": [
+      "反向代理",
+      "请求头"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-nginx-webserver-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
   }
 ]
