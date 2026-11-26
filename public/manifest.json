@@ -1,6 +1,7 @@
 {
-  "short_name": "OpenSkill Module",
-  "name": "OpenSkill Galaxy — 学习自测模块",
+  "short_name": "Nginx与Web服务部",
+  "name": "OpenSkill Galaxy — Nginx与Web服务部署",
+  "description": "面向前端后端运维和全栈开发学习者的Nginx静态资源部署反向代理负载均衡HTTPS缓存跨域日志限流性能优化与故障排查训练。",
   "icons": [
     {
       "src": "favicon.svg",
@@ -8,9 +9,10 @@
       "sizes": "any"
     }
   ],
-  "start_url": ".",
-  "background_color": "#fbfbfd",
-  "theme_color": "#4f46e5",
+  "start_url": "/module-nginx-webserver/",
+  "scope": "/module-nginx-webserver/",
+  "background_color": "#f4f5fa",
+  "theme_color": "#3039c9",
   "display": "standalone",
   "orientation": "portrait"
 }

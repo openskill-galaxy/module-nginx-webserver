@@ -69,7 +69,9 @@
     ],
     "difficulty": "hard",
     "chapter": "mod-nginx-webserver-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "nx-kp-0013"
+    ],
     "estimated_time": 4
   },
   {
@@ -104,8 +106,11 @@
       "proxy_pass"
     ],
     "difficulty": "hard",
-    "chapter": "mod-nginx-webserver-c-1",
-    "knowledge_points": [],
+    "chapter": "mod-nginx-webserver-c-2",
+    "knowledge_points": [
+      "nx-kp-0002",
+      "nx-kp-0005"
+    ],
     "estimated_time": 4
   },
   {
@@ -141,8 +146,10 @@
       "alias"
     ],
     "difficulty": "medium",
-    "chapter": "mod-nginx-webserver-c-2",
-    "knowledge_points": [],
+    "chapter": "mod-nginx-webserver-c-1",
+    "knowledge_points": [
+      "nx-kp-0004"
+    ],
     "estimated_time": 3
   },
   {
@@ -214,8 +221,10 @@
       "HTTP状态码"
     ],
     "difficulty": "medium",
-    "chapter": "mod-nginx-webserver-c-2",
-    "knowledge_points": [],
+    "chapter": "mod-nginx-webserver-c-3",
+    "knowledge_points": [
+      "nx-kp-0002"
+    ],
     "estimated_time": 3
   },
   {
@@ -250,8 +259,11 @@
       "upstream"
     ],
     "difficulty": "easy",
-    "chapter": "mod-nginx-webserver-c-3",
-    "knowledge_points": [],
+    "chapter": "mod-nginx-webserver-c-2",
+    "knowledge_points": [
+      "nx-kp-0003",
+      "nx-kp-0006"
+    ],
     "estimated_time": 2
   },
   {
@@ -286,8 +298,10 @@
       "会话保持"
     ],
     "difficulty": "medium",
-    "chapter": "mod-nginx-webserver-c-3",
-    "knowledge_points": [],
+    "chapter": "mod-nginx-webserver-c-2",
+    "knowledge_points": [
+      "nx-kp-0003"
+    ],
     "estimated_time": 3
   },
   {
@@ -395,8 +409,10 @@
       "性能优化"
     ],
     "difficulty": "medium",
-    "chapter": "mod-nginx-webserver-c-2",
-    "knowledge_points": [],
+    "chapter": "mod-nginx-webserver-c-3",
+    "knowledge_points": [
+      "nx-kp-0008"
+    ],
     "estimated_time": 3
   },
   {
@@ -433,7 +449,9 @@
     ],
     "difficulty": "hard",
     "chapter": "mod-nginx-webserver-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "nx-kp-0011"
+    ],
     "estimated_time": 4
   },
   {
@@ -506,7 +524,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-nginx-webserver-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "nx-kp-0002"
+    ],
     "estimated_time": 3
   },
   {
@@ -583,7 +603,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-nginx-webserver-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "nx-kp-0007"
+    ],
     "estimated_time": 3
   },
   {
@@ -622,7 +644,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-nginx-webserver-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "nx-kp-0009"
+    ],
     "estimated_time": 3
   },
   {
@@ -679,7 +703,7 @@
       "进程模型"
     ],
     "difficulty": "easy",
-    "chapter": "mod-nginx-webserver-c-2",
+    "chapter": "mod-nginx-webserver-c-1",
     "knowledge_points": [],
     "estimated_time": 1
   },
@@ -718,7 +742,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-nginx-webserver-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "nx-kp-0013"
+    ],
     "estimated_time": 2
   },
   {
@@ -737,7 +763,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-nginx-webserver-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "nx-kp-0003"
+    ],
     "estimated_time": 2
   },
   {
@@ -775,7 +803,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-nginx-webserver-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "nx-kp-0002"
+    ],
     "estimated_time": 2
   }
 ]

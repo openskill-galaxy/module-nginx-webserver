@@ -2,7 +2,7 @@
   "name": "openskill-module-nginx-webserver",
   "version": "1.0.0",
   "private": true,
-  "description": "OpenSkill Galaxy reusable static learning module template.",
+  "description": "面向开发和运维学习者的Web服务器配置",
   "type": "module",
   "scripts": {
     "dev": "vite",

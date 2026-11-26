@@ -7,43 +7,43 @@
     "steps": [
       {
         "order": 1,
-        "title": "Nginx与Web服务部署 环境依赖搭建与运行机制",
-        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "title": "进程模型与平滑重载",
+        "description": "研习主题包括架构原理、进程模型、运维、reload、信号。",
         "courseId": "mod-nginx-webserver-c-1",
         "lessonId": "mod-nginx-webserver-l-1"
       },
       {
         "order": 2,
-        "title": "Nginx与Web服务部署 配置文件覆盖与属性解析",
-        "description": "学习课时: 学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
+        "title": "匹配 location 与静态目录",
+        "description": "研习主题包括location、匹配优先级、静态资源、root、alias。",
         "courseId": "mod-nginx-webserver-c-1",
         "lessonId": "mod-nginx-webserver-l-2"
       },
       {
         "order": 3,
-        "title": "Nginx与Web服务部署 API 接口规范与数据通信",
-        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "title": "反向代理的路径和请求头",
+        "description": "研习主题包括反向代理、proxy_pass、真实IP、请求头。",
         "courseId": "mod-nginx-webserver-c-2",
         "lessonId": "mod-nginx-webserver-l-3"
       },
       {
         "order": 4,
-        "title": "Nginx与Web服务部署 核心控制器与数据校验机制",
-        "description": "学习课时: 掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
+        "title": "上游分流与会话保持",
+        "description": "研习主题包括负载均衡、upstream、会话保持。",
         "courseId": "mod-nginx-webserver-c-2",
         "lessonId": "mod-nginx-webserver-l-4"
       },
       {
         "order": 5,
-        "title": "Nginx与Web服务部署 缓存优化与垃圾回收调优",
-        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "title": "缓存、压缩与静态传输",
+        "description": "研习主题包括性能优化、缓存、压缩、gzip。",
         "courseId": "mod-nginx-webserver-c-3",
         "lessonId": "mod-nginx-webserver-l-5"
       },
       {
         "order": 6,
-        "title": "Nginx与Web服务部署 可观测性日志与分布式链路监控",
-        "description": "学习课时: 配置全局日志收集管道，分析高负载服务下的运行指标波动。",
+        "title": "限流与上游故障排查",
+        "description": "研习主题包括限流、limit_req、漏桶、反向代理、故障排查、HTTP状态码。",
         "courseId": "mod-nginx-webserver-c-3",
         "lessonId": "mod-nginx-webserver-l-6"
       }
@@ -57,22 +57,22 @@
     "steps": [
       {
         "order": 1,
-        "title": "Nginx与Web服务部署 环境依赖搭建与运行机制",
-        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "title": "进程模型与平滑重载",
+        "description": "研习主题包括架构原理、进程模型、运维、reload、信号。",
         "courseId": "mod-nginx-webserver-c-1",
         "lessonId": "mod-nginx-webserver-l-1"
       },
       {
         "order": 3,
-        "title": "Nginx与Web服务部署 API 接口规范与数据通信",
-        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "title": "反向代理的路径和请求头",
+        "description": "研习主题包括反向代理、proxy_pass、真实IP、请求头。",
         "courseId": "mod-nginx-webserver-c-2",
         "lessonId": "mod-nginx-webserver-l-3"
       },
       {
         "order": 5,
-        "title": "Nginx与Web服务部署 缓存优化与垃圾回收调优",
-        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "title": "缓存、压缩与静态传输",
+        "description": "研习主题包括性能优化、缓存、压缩、gzip。",
         "courseId": "mod-nginx-webserver-c-3",
         "lessonId": "mod-nginx-webserver-l-5"
       }

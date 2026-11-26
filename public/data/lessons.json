@@ -3,66 +3,105 @@
     "id": "mod-nginx-webserver-l-1",
     "courseId": "mod-nginx-webserver-c-1",
     "order": 1,
-    "title": "Nginx与Web服务部署 环境依赖搭建与运行机制",
+    "title": "进程模型与平滑重载",
     "slug": "lesson-1-1",
-    "summary": "了解平台运行依赖、环境参数配置以及本地运行引导流程。",
-    "contentMarkdown": "# Nginx与Web服务部署 环境依赖搭建与运行机制\n          \n## 1. 概述与背景\n在进行 `Nginx与Web服务部署` 的开发实践中，`Nginx与Web服务部署 环境依赖搭建与运行机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Nginx与Web服务部署 生产实践示例\nconsole.log(\"Initializing Nginx与Web服务部署 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
+    "summary": "研习主题包括架构原理、进程模型、运维、reload、信号。",
+    "contentMarkdown": "## 例题1 · 进程模型\n\nNginx 采用 master-worker 多进程架构：master 进程负责读取配置和管理 worker，实际的请求由 worker 进程处理。\n\n**参考答案**　正确\n\n正确。master 以 root 权限启动，负责绑定端口、加载配置、按 worker_processes 派生 worker、接收信号完成平滑重载和升级；worker 通常以低权限用户（如 www-data）运行，通过事件循环处理实际连接，进程隔离也提升了稳定性与安全性。\n\n## 例题2 · 信号\n\n修改了 nginx.conf 之后，希望在不中断现有连接的情况下让新配置生效，应执行哪个命令？\n\n- A. nginx -s reload\n- B. nginx -s stop && nginx\n- C. kill -9 $(cat /run/nginx.pid)\n- D. nginx -V\n\n**参考答案**　A\n\nnginx -s reload 向 master 进程发送 HUP 信号：master 校验新配置后启动新的 worker 进程接管新连接，旧 worker 处理完存量请求后优雅退出，实现平滑重载。B 会瞬间断开所有连接；C 强杀 master 更是服务中断且不优雅；D 只是打印编译参数。",
     "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "estimatedMinutes": 8,
+    "practiceQuestionIds": [
+      "mod-nginx-webserver-q-19",
+      "mod-nginx-webserver-q-1"
+    ]
   },
   {
     "id": "mod-nginx-webserver-l-2",
     "courseId": "mod-nginx-webserver-c-1",
     "order": 2,
-    "title": "Nginx与Web服务部署 配置文件覆盖与属性解析",
+    "title": "匹配 location 与静态目录",
     "slug": "lesson-1-2",
-    "summary": "学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
-    "contentMarkdown": "# Nginx与Web服务部署 配置文件覆盖与属性解析\n          \n## 1. 概述与背景\n在进行 `Nginx与Web服务部署` 的开发实践中，`Nginx与Web服务部署 配置文件覆盖与属性解析` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Nginx与Web服务部署 生产实践示例\nconsole.log(\"Initializing Nginx与Web服务部署 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括location、匹配优先级、静态资源、root、alias。",
+    "contentMarkdown": "## 例题1 · 匹配优先级\n\nNginx 中同时存在以下 location 块，请求 URI 为 /images/logo.png 时，最终由哪个块处理？\n\nlocation / { ... }            # 块1\nlocation ^~ /images/ { ... }  # 块2\nlocation ~ \\.png$ { ... }     # 块3\nlocation = /images/logo.png { ... }  # 块4\n\n- A. 块4，精确匹配 = 优先级最高\n- B. 块3，正则匹配总是优先于前缀匹配\n- C. 块2，^~ 命中后仍会继续检查正则\n- D. 块1，最先出现的 location 优先\n\n**参考答案**　A\n\nlocation 匹配顺序为：先看 = 精确匹配，命中立即使用（块4 与 URI 完全一致，直接胜出）；若无精确匹配，记录最长前缀匹配，若该前缀带 ^~ 则跳过正则直接使用；否则按配置顺序尝试正则（~ 区分大小写、~* 不区分），正则命中则用正则，否则回落到最长前缀。B 忽略了 = 与 ^~ 的存在；C 说反了，^~ 的意义正是阻止正则检查；D 中 location 之间与书写顺序基本无关（仅正则之间按顺序）。\n\n## 例题2 · alias\n\n配置 location /static/ { root /data/www; } 时，请求 /static/a.css 实际读取的文件是？\n\n- A. /data/www/static/a.css，root 会把完整 URI 拼接到路径后面\n- B. /data/www/a.css，root 会去掉 location 前缀\n- C. /data/www/static/static/a.css\n- D. 配置非法，root 不能用于带路径的 location\n\n**参考答案**　A\n\nroot 的规则是：文件路径 = root 值 + 完整请求 URI，因此是 /data/www/static/a.css。而 alias 才是用 alias 值替换掉 location 匹配的前缀：若配置 alias /data/www/，则读取 /data/www/a.css（即选项 B 的效果）。混淆 root 与 alias 会导致 404，是静态资源配置的高频错误。",
+    "knowledgePoints": [
+      "nx-kp-0013",
+      "nx-kp-0004"
+    ],
+    "estimatedMinutes": 14,
+    "practiceQuestionIds": [
+      "mod-nginx-webserver-q-2",
+      "mod-nginx-webserver-q-4"
+    ]
   },
   {
     "id": "mod-nginx-webserver-l-3",
     "courseId": "mod-nginx-webserver-c-2",
     "order": 1,
-    "title": "Nginx与Web服务部署 API 接口规范与数据通信",
+    "title": "反向代理的路径和请求头",
     "slug": "lesson-2-1",
-    "summary": "掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
-    "contentMarkdown": "# Nginx与Web服务部署 API 接口规范与数据通信\n          \n## 1. 概述与背景\n在进行 `Nginx与Web服务部署` 的开发实践中，`Nginx与Web服务部署 API 接口规范与数据通信` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Nginx与Web服务部署 生产实践示例\nconsole.log(\"Initializing Nginx与Web服务部署 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括反向代理、proxy_pass、真实IP、请求头。",
+    "contentMarkdown": "## 例题1 · proxy_pass\n\n配置如下：\n\nlocation /api/ {\n    proxy_pass http://backend:8080/;\n}\n\n客户端请求 /api/user/list，后端实际收到的路径是？\n\n- A. /user/list\n- B. /api/user/list\n- C. /api/api/user/list\n- D. /，路径信息被丢弃\n\n**参考答案**　A\n\n当 proxy_pass 的 URL 带有路径部分（这里是末尾的 /）时，Nginx 会把 location 匹配到的前缀 /api/ 替换为该路径：/api/user/list → / + user/list = /user/list。如果写成 proxy_pass http://backend:8080（不带 /），则原始 URI 原样透传，后端收到 /api/user/list（选项 B 的情形）。这个斜杠差异是反向代理配置中最常见的踩坑点。\n\n## 例题2 · 请求头\n\n后端应用日志里所有请求的来源 IP 都是 Nginx 服务器自己的 IP。要让后端拿到真实客户端 IP，常规做法是？\n\n- A. 在代理配置中加 proxy_set_header X-Real-IP $remote_addr; 和 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;，后端读取对应请求头\n- B. 把 Nginx 换成四层 TCP 转发即可自动透传客户端 IP\n- C. 让后端解析 TCP 包头获取 IP，无需任何配置\n- D. 开启 proxy_buffering 即可传递真实 IP\n\n**参考答案**　A\n\n七层反向代理与后端之间是 Nginx 新建的 TCP 连接，后端从 socket 看到的对端自然是 Nginx。标准做法是由 Nginx 把客户端地址塞进请求头：X-Real-IP 放直接来源，X-Forwarded-For 用 $proxy_add_x_forwarded_for 追加形成代理链，后端框架读取这些头（并配置可信代理列表防伪造）。四层转发默认同样会改变源地址，除非引入 proxy protocol 或透明代理等额外机制（B 不成立）；proxy_buffering 只影响响应缓冲。",
+    "knowledgePoints": [
+      "nx-kp-0002",
+      "nx-kp-0005"
+    ],
+    "estimatedMinutes": 14,
+    "practiceQuestionIds": [
+      "mod-nginx-webserver-q-3",
+      "mod-nginx-webserver-q-14"
+    ]
   },
   {
     "id": "mod-nginx-webserver-l-4",
     "courseId": "mod-nginx-webserver-c-2",
     "order": 2,
-    "title": "Nginx与Web服务部署 核心控制器与数据校验机制",
+    "title": "上游分流与会话保持",
     "slug": "lesson-2-2",
-    "summary": "掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
-    "contentMarkdown": "# Nginx与Web服务部署 核心控制器与数据校验机制\n          \n## 1. 概述与背景\n在进行 `Nginx与Web服务部署` 的开发实践中，`Nginx与Web服务部署 核心控制器与数据校验机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Nginx与Web服务部署 生产实践示例\nconsole.log(\"Initializing Nginx与Web服务部署 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括负载均衡、upstream、会话保持。",
+    "contentMarkdown": "## 例题1 · upstream\n\nupstream 块中未指定任何负载均衡指令时，Nginx 默认采用哪种算法分发请求？\n\n- A. 加权轮询（round-robin）\n- B. 最少连接（least_conn）\n- C. 源地址哈希（ip_hash）\n- D. 随机（random）\n\n**参考答案**　A\n\n默认算法是加权轮询：按 server 的 weight（默认 1）依次把请求分配给各后端。least_conn、ip_hash、hash、random 都需要在 upstream 块中显式声明才会启用。\n\n## 例题2 · 会话保持\n\n某传统应用把用户会话保存在应用服务器本地内存中。为避免用户请求被分发到不同后端导致会话丢失，upstream 中应使用哪个指令？\n\n- A. ip_hash\n- B. least_conn\n- C. keepalive 32\n- D. backup\n\n**参考答案**　A\n\nip_hash 按客户端 IP 计算哈希，使同一来源的请求始终落到同一台后端，实现会话粘滞（sticky session），适合本地会话的旧系统。least_conn 只考虑连接数不保证粘滞；keepalive 是维持 Nginx 与后端的长连接池，与会话无关；backup 是把某台服务器标记为备机。更彻底的方案是把会话外置到 Redis 等共享存储。",
+    "knowledgePoints": [
+      "nx-kp-0003",
+      "nx-kp-0006"
+    ],
+    "estimatedMinutes": 10,
+    "practiceQuestionIds": [
+      "mod-nginx-webserver-q-7",
+      "mod-nginx-webserver-q-8"
+    ]
   },
   {
     "id": "mod-nginx-webserver-l-5",
     "courseId": "mod-nginx-webserver-c-3",
     "order": 1,
-    "title": "Nginx与Web服务部署 缓存优化与垃圾回收调优",
+    "title": "缓存、压缩与静态传输",
     "slug": "lesson-3-1",
-    "summary": "定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
-    "contentMarkdown": "# Nginx与Web服务部署 缓存优化与垃圾回收调优\n          \n## 1. 概述与背景\n在进行 `Nginx与Web服务部署` 的开发实践中，`Nginx与Web服务部署 缓存优化与垃圾回收调优` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Nginx与Web服务部署 生产实践示例\nconsole.log(\"Initializing Nginx与Web服务部署 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括性能优化、缓存、压缩、gzip。",
+    "contentMarkdown": "## 例题1 · 压缩\n\n以下哪些手段能有效提升 Nginx 静态资源服务的性能或降低带宽消耗？（多选）\n\n- A. 开启 sendfile 与 tcp_nopush\n- B. 对文本类资源开启 gzip（或 brotli）压缩\n- C. 用 expires / Cache-Control 为带指纹的静态文件设置长缓存\n- D. 把 access_log 设为最详细级别记录所有请求细节\n\n**参考答案**　A、B、C\n\nsendfile+tcp_nopush 走零拷贝并攒满包发送；gzip/brotli 可把文本资源体积压缩到原来的 20%-30%；对文件名带内容哈希的资源设置 expires max 或 Cache-Control: max-age 让浏览器直接命中本地缓存，三者都是标准优化。把日志调到最详细会显著增加磁盘 I/O，属于性能负优化——高并发场景反而常用 access_log off 或 buffer 缓冲写入。\n\n## 例题2 · 性能优化\n\n开启了 gzip on; 后发现 .css 和 .js 文件仍未被压缩，最可能的原因是？\n\n- A. gzip_types 未包含 text/css 和 application/javascript，默认只压缩 text/html\n- B. gzip 只对图片生效\n- C. 必须重新编译 Nginx 才能压缩 CSS\n- D. gzip 与 sendfile 冲突，开启 sendfile 后压缩自动失效\n\n**参考答案**　A\n\ngzip on 默认只压缩 text/html 一种 MIME 类型，其他类型必须通过 gzip_types 显式列出，如 gzip_types text/css application/javascript application/json;。另外还要注意 gzip_min_length（过小的文件不压缩）和代理场景下的 gzip_proxied。JPEG/PNG 等图片本身已压缩，一般不再 gzip（B 说反了）；无需重新编译；gzip 与 sendfile 并不冲突。",
+    "knowledgePoints": [
+      "nx-kp-0009",
+      "nx-kp-0008"
+    ],
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-nginx-webserver-q-17",
+      "mod-nginx-webserver-q-11"
+    ]
   },
   {
     "id": "mod-nginx-webserver-l-6",
     "courseId": "mod-nginx-webserver-c-3",
     "order": 2,
-    "title": "Nginx与Web服务部署 可观测性日志与分布式链路监控",
+    "title": "限流与上游故障排查",
     "slug": "lesson-3-2",
-    "summary": "配置全局日志收集管道，分析高负载服务下的运行指标波动。",
-    "contentMarkdown": "# Nginx与Web服务部署 可观测性日志与分布式链路监控\n          \n## 1. 概述与背景\n在进行 `Nginx与Web服务部署` 的开发实践中，`Nginx与Web服务部署 可观测性日志与分布式链路监控` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Nginx与Web服务部署 生产实践示例\nconsole.log(\"Initializing Nginx与Web服务部署 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括限流、limit_req、漏桶、反向代理、故障排查、HTTP状态码。",
+    "contentMarkdown": "## 例题1 · 漏桶\n\n配置限流：\n\nlimit_req_zone $binary_remote_addr zone=api:10m rate=10r/s;\nlocation /api/ {\n    limit_req zone=api burst=20 nodelay;\n}\n\n关于该配置的说法正确的是？\n\n- A. 每个客户端 IP 平均限速 10 请求/秒，突发最多再容纳 20 个请求立即处理，超出的直接拒绝（默认 503）\n- B. 全站所有用户共享每秒 10 个请求的总配额\n- C. burst=20 表示每秒额外放行 20 个请求，等于把限速提高到 30r/s\n- D. nodelay 表示不限速，仅记录日志\n\n**参考答案**　A\n\nlimit_req 基于漏桶算法：zone 的 key 是 $binary_remote_addr，即按客户端 IP 独立计数（B 错误）；rate=10r/s 是稳态速率；burst=20 是桶的容量，允许短时突发排队；nodelay 让突发范围内的请求立即处理而不是按速率延迟放行，但桶满后新请求仍被拒绝，长期吞吐量依然是 10r/s（C 错误，burst 不提高稳态速率）。nodelay 绝不是关闭限流（D 错误）。\n\n## 例题2 · HTTP状态码\n\nNginx 作为反向代理时，502 Bad Gateway 与 504 Gateway Timeout 的区别是？\n\n- A. 502 表示后端返回了无效响应或连接被拒绝；504 表示后端在超时时间内没有返回响应\n- B. 502 是客户端网络问题；504 是 Nginx 自身崩溃\n- C. 两者等价，只是 Nginx 版本不同导致编号不同\n- D. 502 表示请求被限流；504 表示证书过期\n\n**参考答案**　A\n\n502 通常出现在后端进程挂掉、端口未监听（connection refused）或返回了不合法的响应时；504 则是后端存活但处理太慢，超过了 proxy_read_timeout / proxy_connect_timeout 等时限。排查方向不同：502 先查后端是否存活，504 先查后端慢在哪里或调大超时。限流触发的通常是 503，证书问题表现为 TLS 握手失败。",
+    "knowledgePoints": [
+      "nx-kp-0011",
+      "nx-kp-0002"
+    ],
+    "estimatedMinutes": 14,
+    "practiceQuestionIds": [
+      "mod-nginx-webserver-q-12",
+      "mod-nginx-webserver-q-6"
+    ]
   }
 ]
